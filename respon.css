@@ -1,0 +1,74 @@
+@media screen and (max-width: 500px) {
+
+
+
+    .cima_quadro img{
+        width: 207px;
+        height: 52px;
+    }
+
+
+
+    .cima_quadro{
+    padding: 10px 60% 0px 24px;
+    background-color: transparent;
+}
+
+    #container-b {
+      display: none; 
+      width: 0;
+      height: 0;
+      
+    }
+
+    .cima_quadro .navbar{
+        display: none;     
+    }
+
+    #container-a{
+        height: 560px;
+        width: 90%;
+        margin-block-start: 50px;
+        margin-inline-start: 5.5%;
+        margin-inline-end: 10px;
+    }
+
+    #container-a .text{
+        height: 84%;
+    }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

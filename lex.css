@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/gueixa\ 1.avif) no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cima_quadro{
+    background-color: rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    padding: 10px 60% 20px 40px;
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-left: 2.5rem;
+}
+
+.contents{
+    width: 100%;
+    height: 100%;
+}
+
+#container-a{
+    margin-block-end: 20px;
+    margin-block-start: 50px;
+    margin-inline-start: 80px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 30%;
+    height: 636px;
+    border: 2px #fff solid;
+}
+
+#container-b{
+    margin-block-start: 50px;
+    margin-inline-start: 50px;
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+#container-a h1{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px rgb(146, 146, 146) solid;
+}
+
+#container-a .text {
+    height: 543px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+
+#container-a .text h2{
+    color: #fff;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 35px;
+    margin-left: 10px;
+    font-weight: 50;
+}
+
+#container-a .text h2 span{
+    border-bottom: outset;
+    color: #be0000;
+    width: 150px;
+    height: 50px;
+}
+
+
+#container-a .text .cb{
+    height: 10%;
+    width: 90%;
+    border-bottom: outset;
+
+}
+
+.text h5{
+    padding-inline-start: 10px;
+    color: #fff;
+    font-weight: 50;
+}
+
+.text input{
+    border-bottom: outset;
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border:none;
+    border-bottom: #fff;
+    padding-inline-start: 10px;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.kep_baixo{
+    margin-top: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+.sociais{
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+    
